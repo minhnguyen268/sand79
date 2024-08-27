@@ -198,7 +198,8 @@ Tạo https vơi cert bot
 
 ```
 sudo apt install snapd
-sudo snap install core; sudo snap refresh core
+sudo snap install core
+sudo snap refresh core
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx (Hiển thị ra (Enter 'c' to cancel): nhập email nào cũng được rồi nhấn Enter -> Ấn Y -> Y -> Enter
