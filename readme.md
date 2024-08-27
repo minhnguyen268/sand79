@@ -16,6 +16,9 @@ git branch -M main
 git push -u origin main
 ```
 
+Đăng nhập vào VPS
+ssh root@...
+pass
 
 Cài đặt git trên server
 
