@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | Xổ số SandSGP",
-  defaultTitle: "Xổ số SandSGP",
-  description: "SandSGP - Hệ thống chơi xổ số trực tuyến",
+  titleTemplate: "%s | Sands Casino",
+  defaultTitle: "Sands Casino",
+  description: "SandSGP - Hệ thống chơi casino trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,11 +23,11 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "Xổ số SandSGP",
-    description: "Xổ số SandSGP",
+    siteName: "Sands Casino",
+    description: "Sands Casino",
     images: [
       {
-        url: "https://i.ibb.co/0cQnxF3/bannerimg.jpg",
+        url: "https://i.ibb.co/NjRrxf8/Sands-Macao-5-e1400157658494.jpg",
         width: 1200,
         height: 628,
       },
