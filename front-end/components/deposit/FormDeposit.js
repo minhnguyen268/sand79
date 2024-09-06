@@ -14,7 +14,7 @@ import LoadingBox from "../homePage/LoadingBox";
 import ErrorMessageLabel from "../input/ErrorMessageLabel";
 import OutlinedInput from "../input/OutlinedInput";
 
-const NOI_DUNG_NAP_TIEN = process.env.MEMO_PREFIX_DEPOSIT || "SAND79";
+const NOI_DUNG_NAP_TIEN = process.env.MEMO_PREFIX_DEPOSIT || "NAPTIEN";
 const FormNap = ({ selectedBank }) => {
   const router = useRouter();
   const { data: session } = useSession();
@@ -54,7 +54,7 @@ const FormNap = ({ selectedBank }) => {
         }, 100);
       });
       setSrcVietQR(
-        `https://img.vietqr.io/image/${selectedBank.code}-${selectedBank.soTaiKhoan}-compact2.png?amount=${soTien}&addInfo=NAPTIEN%20${session.user.taiKhoan}&accountName=${selectedBank.tenChuTaiKhoan}`
+        `https://img.vietqr.io/image/${selectedBank.code}-${selectedBank.soTaiKhoan}-compact2.png?amount=${soTien}&addInfo=SAND79%20${session.user.taiKhoan}&accountName=${selectedBank.tenChuTaiKhoan}`
       );
       setIsLoading(false);
     } catch (err) {
