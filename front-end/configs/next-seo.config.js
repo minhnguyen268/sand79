@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | Sands Casino",
-  defaultTitle: "Sands Casino",
-  description: "SandSGP - Hệ thống chơi casino trực tuyến",
+  titleTemplate: "%s | Sands Casino - Nhà cái số 1 Châu Á",
+  defaultTitle: "Sands Casino - Nhà cái số 1 Châu Á",
+  description: "Sands Casino - Nhà cái số 1 Châu Á",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,8 +23,8 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "Sands Casino",
-    description: "Sands Casino",
+    siteName: "Sands Casino - Nhà cái số 1 Châu Á",
+    description: "Sands Casino - Nhà cái số 1 Châu Á",
     images: [
       {
         url: "https://i.ibb.co/NjRrxf8/Sands-Macao-5-e1400157658494.jpg",
