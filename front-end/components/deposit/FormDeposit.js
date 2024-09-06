@@ -14,7 +14,7 @@ import LoadingBox from "../homePage/LoadingBox";
 import ErrorMessageLabel from "../input/ErrorMessageLabel";
 import OutlinedInput from "../input/OutlinedInput";
 
-const NOI_DUNG_NAP_TIEN = process.env.MEMO_PREFIX_DEPOSIT || "NAPTIEN";
+const NOI_DUNG_NAP_TIEN = process.env.MEMO_PREFIX_DEPOSIT || "SAND79";
 const FormNap = ({ selectedBank }) => {
   const router = useRouter();
   const { data: session } = useSession();
