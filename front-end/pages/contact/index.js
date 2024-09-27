@@ -28,14 +28,14 @@ const Home = () => {
       <Layout>
         <h1 className="title-h1">Chăm sóc khách hàng</h1>
         <Box
-          sx={{ 
+          sx={{
             paddingTop: "5rem",
             height: "70vh",
           }}
         >
           {data && (
             <iframe
-              src={`https://sand79vn.ladesk.com/scripts/inline_chat.php?cwid=e3pwrh2m`}
+              src={`https://tawk.to/chat/${propertyId}/${widgetId}`}
               frameBorder="0"
               width="100%"
               height="100%"
