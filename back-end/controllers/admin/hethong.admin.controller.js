@@ -66,7 +66,7 @@ class HeThongAdminController {
     const { propertyId, widgetId } = tawkToConfigs;
     try {
       // Check config is valid
-      const testConfig = await axios.get(`https://tawk.to/chat/${propertyId}/${widgetId}`, {});
+      const testConfig = await axios.get(`https://${propertyId}.ladesk.com/scripts/inline_chat.php?cwid=${widgetId}`, {});
     } catch (err) {
       throw new BadRequestError("Thông tin cấu hình không hợp lệ");
     }
